@@ -37,4 +37,4 @@
 ![kmeans](Images/tsne.png)
 
 ### Running the script
-The script can be run in Jupyter Lab or Colab by loading the crypto_data.csv and executing the script.
+The script can be run in Jupyter Lab or Colab by loading the crypto_data.csv and executing the script. The Crypto.ipynb file can be copied and pasted into Jupyter lab and executed as long as the crypto_data.csv is in the same folder as the ipynb file.
