@@ -8,8 +8,6 @@
 
 ### Data Preparation - The following steps were taken to prepare the data for machine learning.
 
-![data](Images/data.png)
-
 * The `crypto_data.csv` was read into Pandas. The dataset was obtained from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist).
 
 * All cryptocurrencies that are not being traded we discarded by using a query to filter.
@@ -28,13 +26,9 @@
 
 * The dataset dimensions were further reduced with t-SNE and visually inspect the results. A scatter plot was created of the t-SNE output. 
 
-![kmeans](Images/kmeans.png)
-
 ### Cluster Analysis with k-Means
 
 * An elbow plot was created to identify the best number of clusters. This used a for-loop to determine the inertia for each `k` between 1 through 10. 
-
-![kmeans](Images/tsne.png)
 
 ### Running the script
 The script can be run in Jupyter Lab or Colab by loading the crypto_data.csv and executing the script.
